@@ -37,7 +37,7 @@ namespace Bibliotec_mvc.Controllers
             //     } else {
 
             //     }
-
+            
             // }
             if (usuarioBuscado == null)
             {
@@ -47,6 +47,7 @@ namespace Bibliotec_mvc.Controllers
             else
             {
                 Console.WriteLine($"Bem vindo mlk!");
+                HttpContext.Session.SetString("UsuarioID", usuarioBuscado.UsuarioID.ToString());
                 return LocalRedirect("~/Livro");
             }
         }
@@ -61,4 +62,4 @@ namespace Bibliotec_mvc.Controllers
         //     return View("Error!");
         // }
     }
-}
+} 

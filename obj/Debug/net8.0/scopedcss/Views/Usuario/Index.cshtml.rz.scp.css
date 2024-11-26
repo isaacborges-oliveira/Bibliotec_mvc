@@ -1,0 +1,27 @@
+.conteudo_principal[b-5mziw11g6p] {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+
+}
+
+
+.conteudo[b-5mziw11g6p] {
+    display: flex;
+    margin-top: 10px;
+}
+
+.conteudo p[b-5mziw11g6p] {
+    margin-left: 10px;
+}
+
+.linha[b-5mziw11g6p] {
+    background-color: #2fd6cb;
+    width: 50%;
+    height: 3px;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}

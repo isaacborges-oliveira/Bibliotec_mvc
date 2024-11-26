@@ -4738,19 +4738,21 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\43022067801\\Desktop\\BilbiotecMVC\\Bibliotec\\Biblotec.csproj",
+      "projectUniqueName": "C:\\Users\\43022067801\\Desktop\\Bibliotec_mvc\\Biblotec.csproj",
       "projectName": "Biblotec",
-      "projectPath": "C:\\Users\\43022067801\\Desktop\\BilbiotecMVC\\Bibliotec\\Biblotec.csproj",
+      "projectPath": "C:\\Users\\43022067801\\Desktop\\Bibliotec_mvc\\Biblotec.csproj",
       "packagesPath": "C:\\Users\\43022067801\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\43022067801\\Desktop\\BilbiotecMVC\\Bibliotec\\obj\\",
+      "outputPath": "C:\\Users\\43022067801\\Desktop\\Bibliotec_mvc\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\43022067801\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\43022067801\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4804,7 +4806,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
